@@ -638,7 +638,7 @@ class Player(object):
         return ["You don't have the " + noun]
 
     def remove(self, player, noun):
-        return ["Remove what?"]
+        return ["How? You aren't wearing that!"]
 
     def unwield(self, player, noun):
         return ["Unwield what?"]
